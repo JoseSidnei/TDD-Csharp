@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll" total="18" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-12-31" time="10:55:58">
+<test-results name="C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll" total="18" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-12-31" time="11:50:45">
   <environment nunit-version="2.7.0.0" clr-version="2.0.50727.8800" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="BNU-JOSES" user="jose.sidnei" user-domain="BENNER" />
   <culture-info current-culture="pt-BR" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll" executed="True" result="Success" success="True" time="0.158" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll" executed="True" result="Success" success="True" time="0.169" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Caelum" executed="True" result="Success" success="True" time="0.147" asserts="0">
+      <test-suite type="Namespace" name="Caelum" executed="True" result="Success" success="True" time="0.158" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Leilao" executed="True" result="Success" success="True" time="0.146" asserts="0">
+          <test-suite type="Namespace" name="Leilao" executed="True" result="Success" success="True" time="0.157" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="MatematicaMalucaTest" executed="True" result="Success" success="True" time="0.056" asserts="0">
+              <test-suite type="TestFixture" name="AvaliadorTest" executed="True" result="Success" success="True" time="0.093" asserts="0">
                 <results>
-                  <test-case name="Caelum.Leilao.MatematicaMalucaTest.DeveMultiplicarNumerosMaioresQue10EMenoresQue30" executed="True" result="Success" success="True" time="0.027" asserts="1" />
-                  <test-case name="Caelum.Leilao.MatematicaMalucaTest.DeveMultiplicarNumerosMaioresQue30" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveDevolverListaVaziaCasoNaoHajaLances" executed="True" result="Success" success="True" time="0.039" asserts="1" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveDevolverTodosLancesCasoNaoHajaNoMinimo3" executed="True" result="Success" success="True" time="0.009" asserts="3" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEmtemderLeilaoEmOrdemDecrescente" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEncontrarOsTresMaioresLances" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEntenderLeilaoComApenasUmLance" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEntenderLeilaoCOmApenasUmLance" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEntenderLeilaoEmOrdemRandomica" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                  <test-case name="Caelum.Leilao.AvaliadorTest.DeveEntenderOsTresMaioresLances" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="MatematicaMalucaTest" executed="True" result="Success" success="True" time="0.017" asserts="0">
+                <results>
+                  <test-case name="Caelum.Leilao.MatematicaMalucaTest.DeveMultiplicarNumerosMaioresQue10EMenoresQue30" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Caelum.Leilao.MatematicaMalucaTest.DeveMultiplicarNumerosMaioresQue30" executed="True" result="Success" success="True" time="0.001" asserts="1" />
                   <test-case name="Caelum.Leilao.MatematicaMalucaTest.DeveMultiplicarNumerosMenoresQue10" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                 </results>
               </test-suite>
-              <test-suite type="Namespace" name="Teste" executed="True" result="Success" success="True" time="0.036" asserts="0">
+              <test-suite type="Namespace" name="Teste" executed="True" result="Success" success="True" time="0.039" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="FiltroDeLancesTest" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                  <test-suite type="TestFixture" name="FiltroDeLancesTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
                     <results>
                       <test-case name="Caelum.Leilao.Teste.FiltroDeLancesTest.DeveEliminarEntre3000E5000" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                      <test-case name="Caelum.Leilao.Teste.FiltroDeLancesTest.DeveEliminarMenoresQue500" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-                      <test-case name="Caelum.Leilao.Teste.FiltroDeLancesTest.DeveSelecionarLancesMaioresQue5000" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                      <test-case name="Caelum.Leilao.Teste.FiltroDeLancesTest.DeveEliminarMenoresQue500" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                      <test-case name="Caelum.Leilao.Teste.FiltroDeLancesTest.DeveSelecionarLancesMaioresQue5000" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="LeilaoTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                  <test-suite type="TestFixture" name="LeilaoTest" executed="True" result="Success" success="True" time="0.023" asserts="0">
                     <results>
-                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.DeveReceberUmLance" executed="True" result="Success" success="True" time="0.001" asserts="3" />
-                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.DeveReceberVariosLances" executed="True" result="Success" success="True" time="0.002" asserts="3" />
-                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.NaoDeveAceitarDoisLancesSeguidosDoMesmoUsuario" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.DeveReceberUmLance" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.DeveReceberVariosLances" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                      <test-case name="Caelum.Leilao.Teste.LeilaoTest.NaoDeveAceitarDoisLancesSeguidosDoMesmoUsuario" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                       <test-case name="Caelum.Leilao.Teste.LeilaoTest.NaoDeveAceitarMaisDoQue5LancesDeUmMesmoUsuario" executed="True" result="Success" success="True" time="0.001" asserts="2" />
                     </results>
                   </test-suite>
-                </results>
-              </test-suite>
-              <test-suite type="TestFixture" name="TesteDoAvaliador" executed="True" result="Success" success="True" time="0.043" asserts="0">
-                <results>
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveDevolverListaVaziaCasoNaoHajaLances" executed="True" result="Success" success="True" time="0.010" asserts="1" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveDevolverTodosLancesCasoNaoHajaNoMinimo3" executed="True" result="Success" success="True" time="0.004" asserts="3" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEmtemderLeilaoEmOrdemDecrescente" executed="True" result="Success" success="True" time="0.001" asserts="2" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEncontrarOsTresMaioresLances" executed="True" result="Success" success="True" time="0.000" asserts="4" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEntenderLeilaoComApenasUmLance" executed="True" result="Success" success="True" time="0.001" asserts="2" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEntenderLeilaoCOmApenasUmLance" executed="True" result="Success" success="True" time="0.001" asserts="2" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEntenderLeilaoEmOrdemRandomica" executed="True" result="Success" success="True" time="0.001" asserts="2" />
-                  <test-case name="Caelum.Leilao.TesteDoAvaliador.DeveEntenderOsTresMaioresLances" executed="True" result="Success" success="True" time="0.001" asserts="4" />
                 </results>
               </test-suite>
             </results>

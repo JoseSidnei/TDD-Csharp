@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Avaliador.cs" />
+    <Compile Include="CriadorDeLeilao.cs" />
     <Compile Include="FiltroDeLances.cs" />
     <Compile Include="Teste\FiltroDeLancesTest.cs" />
     <Compile Include="Teste\LeilaoTest.cs" />
@@ -57,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Lance.cs" />
     <Compile Include="Leilao.cs" />
-    <Compile Include="Teste\TesteDoAvaliador.cs" />
+    <Compile Include="Teste\AvaliadorTest.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

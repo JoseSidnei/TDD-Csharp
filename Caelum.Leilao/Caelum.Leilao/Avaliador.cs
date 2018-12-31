@@ -14,10 +14,22 @@ namespace Caelum.Leilao
 
         public void Avalia(Leilao leilao)
         {
+            if (leilao.Lances.Count == 0)
+            {
+                throw new Exception
+            }
+
             foreach (Lance lance in leilao.Lances)
             {
-                if (lance.Valor > maiorDeTodos) maiorDeTodos = lance.Valor;
-                if (lance.Valor < menorDeTodos) menorDeTodos = lance.Valor;
+                if (lance.Valor > maiorDeTodos)
+                {
+                    maiorDeTodos = lance.Valor;
+                }
+
+                if (lance.Valor < menorDeTodos)
+                {
+                    menorDeTodos = lance.Valor;
+                }
             }
 
             pegaOsMaioresNo(leilao);

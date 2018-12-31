@@ -10,3 +10,9 @@ C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.
 C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.Leilao\bin\Debug\nunit.framework.dll
 C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll
 C:\Users\jose.sidnei\Documents\Visual Studio 2013\Projects\Caelum.Leilao\Caelum.Leilao\obj\Debug\Caelum.Leilao.dll
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.dll
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\bin\Debug\Caelum.Leilao.pdb
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\bin\Debug\nunit.framework.dll
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\obj\Debug\Caelum.Leilao.csprojResolveAssemblyReference.cache
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\obj\Debug\Caelum.Leilao.dll
+C:\Users\jose.sidnei\Documents\GitHub\TDD-Csharp\Caelum.Leilao\Caelum.Leilao\obj\Debug\Caelum.Leilao.pdb
